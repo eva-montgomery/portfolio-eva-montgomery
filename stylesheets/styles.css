@@ -6,16 +6,25 @@
   }
 
   html, body {
-    font-family: "Lato", sans-serif;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Handlee', cursive;
+    font-weight: bolder;
+    /* font-family: "Lato", sans-serif;
+    font-family: 'Shadows Into Light', cursive; */
     display: flex;
     flex-direction: column;
     font-size: 16px;
     min-height: 100vh;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
     max-width: 100%;
+    background-color: rgb(255, 210, 216);
+    background-blend-mode: color-dodge; */
+    background-image: url(/images/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
   }
 
  h2 {
@@ -50,7 +59,7 @@
 ---------------------- */
 .nav {
   overflow: hidden;
-  background-color: rgb(49, 47, 47);
+  background-color: black;
   position: sticky;
   z-index: 1; 
   top: 0; 
@@ -61,16 +70,16 @@
   float: left;
   /* color: blue; */
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 10px;
   text-decoration: none;
   font-size: 24px;
   color: aqua;
 }
 
 .nav a:hover {
-  background-color: rgb(188, 154, 205);
-  color: rgb(164, 3, 150);
-  border-radius: 20%;
+  background-color:rgb(231, 75, 96);
+  color: rgb(146, 218, 170);
+  border-radius: 15%;
 }
 
 .nav a.active {
@@ -101,9 +110,12 @@ BODY - ABOUT ME
 .main {
   display: flex;
   flex-direction: column;
-  background-image: url(/images/background.jpg);
+  background-image: url(/images/background.jpg) ;
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;
 }
 
 /* .home {
@@ -122,9 +134,10 @@ BODY - ABOUT ME
   flex-direction: column;
   font-size:2vw;
   margin-top: 30px;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bolder;
   letter-spacing: 3px;
+  
 }
 
 /* .h1-home {
@@ -142,6 +155,40 @@ BODY - ABOUT ME
 } */
 /* ABOUT ME */
 
+
+ @import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-family:Khula;
+  font-size: 50px;
+  justify-content: center;
+  text-align:center;
+  /* height:200px;
+  width:800px; */
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* position:absolute; */
+  color:black;
+  /* top:30px;
+  bottom:30px;
+  left:0;
+  right:0;
+  margin:auto; */
+}
+
+
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
 .image-box {
   display: flex;
   justify-content: center;
@@ -155,7 +202,7 @@ BODY - ABOUT ME
   height: auto; 
   width: auto; 
   max-width: 100%; 
-  max-height: 400px;
+  max-height: 300px;
   align-items: center;
 }  
 
@@ -168,14 +215,21 @@ BODY - ABOUT ME
 /* ABOUT ME */
 
 
+
 .about-me-container {
 
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   font-size: 20px;
+  font-weight: bolder;
   color: #000000;
   justify-content: center;
+  font-family: 'Handlee', cursive;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -186,13 +240,16 @@ BODY - ABOUT ME
   flex-direction: column;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(255, 228, 228);
-  background: rgb(255, 228, 228);
+  background-color: white;
+  background: white;
   opacity: 0.8;
   border-radius: 15px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   max-width: 800px;
   color: #000000;
+  padding-left: 15px;
+  padding-right: 15px;
+
 
 
 }
@@ -209,6 +266,8 @@ BODY - ABOUT ME
   flex-wrap: wrap;
   margin: 0px;
   padding: 1rem;
+  /* background-image: url(/images/blue-universe-956981.jpg);
+  background-size: contain; */
   /* background-color: #2B4764; */
 }
 
@@ -221,7 +280,7 @@ BODY - ABOUT ME
   /* display: flex;
   flex-direction: wrap; */
   /* flex-wrap: wrap; */
-  background-color: rgb(46, 146, 146);
+  background-color: rgb(55, 175, 175);
   /* background-image: url(/images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg);
   background-size: contain;
   background-repeat: no-repeat; */
@@ -231,10 +290,6 @@ BODY - ABOUT ME
   text-align: center;
   border-radius: 15px;
   padding-bottom: 20px;
-
-
-
-
   
 }
 
@@ -248,29 +303,111 @@ BODY - ABOUT ME
   text-align: center;
   margin: 20px;
   width: 100px;
-  height: 100px;
-
-
-  
+  height: 100px;  
 }
 
+.text {
+  font-size: 14px;
+
+}
 .icon-box:hover {
-  color: rgb(154, 4, 106);
+  color: rgb(182, 18, 130);
 
 }
 
 .skill-text {
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Handlee', cursive;
+
+  /* font-family: 'Josefin Sans', sans-serif; */
 }
 
 
 /* PROJECTS */
 
+.projects {
+  display: flex;
+  flex-direction: column;
+  /* background-color: rgb(96, 99, 99); */
+  /* padding-top: 50px;
+  padding-bottom: 50px; */
 
 
+}
+
+.projects-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 1rem;
+  background-color: rgb(212, 255, 241);
+  /* opacity: 0.9; */
+  margin: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin: auto;
+  border-radius: 15px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Handlee', cursive;
+  font-weight: bolder;
+
+  /* font-family: 'Josefin Sans', sans-serif; */
+
+}
 
 
+.projects-preview {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 100%;
+  width: 100%;
+}
+
+.projects-button-adopt {
+  background-color:rgb(9, 52, 33);
+  border: none;
+  color: rgb(251, 239, 91);
+  padding: 10px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.projects-button-adopt:hover {
+  background-color: rgb(203, 237, 208);
+  color: black;
+}
+
+.projects-button-furever {
+  background-color: #18e4e4;
+  border: none;
+  color: rgb(68, 68, 63);
+  padding: 10px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.projects-button-furever:hover {
+  background-color: rgb(176, 255, 244);
+  color: black;
+}
 
 /* CONTACT
 ---------------- */
@@ -298,6 +435,9 @@ BODY - ABOUT ME
   padding-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
+  font-family: 'Handlee', cursive;
+  font-weight: bolder;
+
 }
 
 .form-container {
@@ -307,6 +447,8 @@ BODY - ABOUT ME
   justify-content: center;
   flex-direction: column;
   max-width: 800px;
+  font-family: 'Handlee', cursive;
+
 
 
 }
@@ -368,7 +510,7 @@ FOOTER
     justify-content: space-around;
     vertical-align: middle;
     color: aqua;
-    background-color:rgb(49, 47, 47);
+    background-color:black;
   }
   
   .footer-menu ul {
@@ -385,7 +527,6 @@ FOOTER
   }
 
 
-  
 
 
 /* MEDIA QUERIES  
@@ -421,25 +562,27 @@ FOOTER
   }
   @media screen and (min-width: 1000px) {
     .home {
-      font-size: 30px;
+      font-size: 28px;
     }
   }  
-  /* @media screen and (max-width: 600px) {
+  @media screen and (max-width: 600px) {
     ul.topnav li.right, 
     ul.topnav li {float: none;
-    } */
+    } 
+    }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {...}
+/* Extra small devices (phones, 600px and down)
+/* @media only screen and (max-width: 600px) {...}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+/* @media only screen and (min-width: 600px) {...} */
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {...}
+/* @media only screen and (min-width: 768px) {...} */
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {...}
+/* @media only screen and (min-width: 992px) {...} */
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+/* @media only screen and (min-width: 1200px) {...} */  */
+
