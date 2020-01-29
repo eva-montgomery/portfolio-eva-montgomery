@@ -76,6 +76,8 @@
   color: aqua;
 }
 
+
+
 .nav a:hover {
   background-color:rgb(231, 75, 96);
   color: rgb(146, 218, 170);
@@ -83,11 +85,12 @@
 }
 
 .nav a:active {
-  background-color:rgb(231, 75, 96);
+  background-color: greenyellow;
   color: rgb(146, 218, 170);
   border-radius: 15%;
 }
 
+/* ----------------- */
 
 /* ul.nav li a:hover:not(.active) {background-color: #111;}
 ul.nav li a.active {background-color: #4CAF50;} */
@@ -477,7 +480,8 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, a color */
 input[type=submit]:hover {
-  background-color: rgb(162, 9, 111);
+  background-color: rgb(231, 75, 96);
+  color: rgb(146, 218, 170);
 }
 
 /* Add a background color and some padding around the form */

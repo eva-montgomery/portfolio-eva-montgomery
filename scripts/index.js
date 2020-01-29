@@ -1,6 +1,5 @@
 
 
-
 consoleText(['Hello World!', 'I am a...', '{ Web Developer }', '{ Product Manager }', '{ Traveler }', '{ Animal Lover }', '{ Bloody Mary Mixologist }' ], 'text',['black']);
 
 function consoleText(words, id, colors) {
