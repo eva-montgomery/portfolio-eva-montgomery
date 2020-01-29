@@ -82,14 +82,15 @@
   border-radius: 15%;
 }
 
-.nav a.active {
-  background-color: rgb(95, 208, 216);
-  color: rgb(165, 221, 238);
+.nav a:active {
+  background-color:rgb(231, 75, 96);
+  color: rgb(146, 218, 170);
+  border-radius: 15%;
 }
 
 
-ul.nav li a:hover:not(.active) {background-color: #111;}
-ul.nav li a.active {background-color: #4CAF50;}
+/* ul.nav li a:hover:not(.active) {background-color: #111;}
+ul.nav li a.active {background-color: #4CAF50;} */
 
 
 ul {
@@ -171,7 +172,7 @@ BODY - ABOUT ME
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  justify-content: center;
   /* position:absolute; */
   color:black;
   /* top:30px;
