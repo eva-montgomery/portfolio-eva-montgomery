@@ -24,6 +24,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
     
 
   }
@@ -60,7 +61,7 @@
 /* HEADER 
 ---------------------- */
 .nav {
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: black;
   position: sticky;
   z-index: 1; 
