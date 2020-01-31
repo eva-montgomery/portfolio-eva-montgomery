@@ -70,7 +70,7 @@
 }
 
 .nav a {
-  /* float: left; */
+  float: left;
   /* color: blue; */
   text-align: center;
   padding: 10px 10px;
