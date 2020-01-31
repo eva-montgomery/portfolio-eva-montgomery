@@ -27,6 +27,7 @@
 
   }
 
+
  h2 {
    text-align: center;
    font-size: 36px;
@@ -111,7 +112,7 @@ li {
 /* 
 BODY - ABOUT ME 
 ------------------ */
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   background-image: url(/images/background.jpg) ;
@@ -120,7 +121,7 @@ BODY - ABOUT ME
   background-attachment: fixed;
   width: 100%;
   height: auto;
-}
+} */
 
 /* .home {
   background-color: black;
@@ -192,6 +193,18 @@ BODY - ABOUT ME
   top:-0.14em;
   left:10px;
 }
+
+@media screen and (min-width: 320px) {
+  .console-container {
+    font-size: calc(30px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  .console-container {
+    font-size: 50px;
+  }
+}  
+
 
 .image-box {
   display: flex;
