@@ -24,8 +24,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100%;
-    width: 100%;
+
 
   }
 
@@ -114,7 +113,7 @@ li {
 /* 
 BODY - ABOUT ME 
 ------------------ */
-.main {
+/* .main {
   display: flex;
   flex-direction: column;
   background-image: url(/images/background.jpg) ;
@@ -123,7 +122,7 @@ BODY - ABOUT ME
   background-attachment: fixed;
   width: 100%;
   height: auto;
-}
+} */
 
 /* .home {
   background-color: black;
@@ -321,6 +320,7 @@ BODY - ABOUT ME
   padding-bottom: 3px;
   text-align: center;
   margin: 20px;
+  width: 100px;
   height: 100px;  
 }
 
@@ -550,12 +550,12 @@ FOOTER
 
 /* MEDIA QUERIES  
 ------------------------- */
-/* @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .page-header a {
     float: none;
     display: block;
   }
-} */
+}
 
 
   @media screen and (min-width: 550px) {
