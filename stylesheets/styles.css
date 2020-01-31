@@ -70,7 +70,7 @@
 }
 
 .nav a {
-  float: left;
+  /* float: left; */
   /* color: blue; */
   text-align: center;
   padding: 10px 10px;
@@ -321,7 +321,6 @@ BODY - ABOUT ME
   padding-bottom: 3px;
   text-align: center;
   margin: 20px;
-  width: 100px;
   height: 100px;  
 }
 
@@ -551,12 +550,12 @@ FOOTER
 
 /* MEDIA QUERIES  
 ------------------------- */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
   .page-header a {
     float: none;
     display: block;
   }
-}
+} */
 
 
   @media screen and (min-width: 550px) {
