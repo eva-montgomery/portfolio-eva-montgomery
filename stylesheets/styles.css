@@ -24,7 +24,7 @@
     background-blend-mode: color-dodge; */
     background-image: url(/images/background.jpg) ;
   
-    background-size: cover;
+    background-size: 100vmax 100vmax;;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
