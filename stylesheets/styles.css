@@ -21,10 +21,10 @@
     background-color: rgb(255, 210, 216);
     background-blend-mode: color-dodge; */
     background-image: url(/images/background.jpg) ;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-
+    background-attachment: fixed;
+    
     
   }
 
