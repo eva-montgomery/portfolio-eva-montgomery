@@ -23,11 +23,11 @@ html {
     max-width: 100%;
     background-color: rgb(255, 210, 216);
     background-blend-mode: color-dodge; */
-    background-image: url(/images/background.jpg) ;
+    /* background-image: url(/images/background.jpg) ;
   
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed; */
 
 
 
@@ -56,8 +56,12 @@ html {
 
   }
    
-.wrapper > * {
-    padding: 20px;
+.wrapper {
+    /* padding: 20px; */
+    background-image: url(/images/background.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
    
 .main {
@@ -68,7 +72,7 @@ html {
 ---------------------- */
 .nav {
   /* overflow: hidden; */
-  background-color: black;
+  background-color: black !important;
   position: sticky;
   z-index: 1; 
   top: 0; 
