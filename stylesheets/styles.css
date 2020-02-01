@@ -53,26 +53,28 @@ html {
     flex-direction: column;
     min-height: 100vh;
     max-width: 100%;
-
-  }
-   
-.wrapper {
-    /* padding: 20px; */
     background-image: url(/images/background.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+
+  }
+   
+.wrapper > * {
+    padding: 20px;
+    
   }
    
 .main {
-    flex-grow: 1; 
+    flex-grow: 1;
   }
 
 /* HEADER 
 ---------------------- */
 .nav {
   /* overflow: hidden; */
-  background-color: black !important;
+  background-color: black;
   position: sticky;
   z-index: 1; 
   top: 0; 
