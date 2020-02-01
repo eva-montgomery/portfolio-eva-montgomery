@@ -80,8 +80,8 @@ html {
 .nav {
   /* overflow: hidden; */
   background-color: black;
-  position: sticky !important;
-  z-index: 1; 
+  position: sticky;
+  /* z-index: 1;  */
   top: 0; 
   left: 0;
 }
