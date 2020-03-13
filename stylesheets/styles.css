@@ -449,6 +449,27 @@ BODY - ABOUT ME
   color: black;
 }
 
+.projects-button-wineoclock {
+  background-color: rgb(235, 121, 121);
+  border: none;
+  color: rgb(19, 19, 18);
+  padding: 10px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+  border-radius: 20px;
+}
+
+.projects-button-wineoclock:hover {
+  background-color: rgb(247, 150, 150);
+  color: black;
+}
+
 /* CONTACT
 ---------------- */
 
