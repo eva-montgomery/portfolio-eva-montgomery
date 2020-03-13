@@ -449,7 +449,7 @@ BODY - ABOUT ME
   color: black;
 }
 
-.projects-button-wineoclock {
+.projects-button-wine-o-clock {
   background-color: rgb(235, 121, 121);
   border: none;
   color: rgb(19, 19, 18);
@@ -467,7 +467,7 @@ BODY - ABOUT ME
 
 
 
-.projects-button-wineoclock:hover {
+.projects-button-wine-o-clock:hover {
   background-color: rgb(247, 150, 150);
   color: black;
 }
